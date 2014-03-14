@@ -1,5 +1,14 @@
-.titulo1
+body
 {
-	color: blue;
+	background-color: yellow;
 }
 
+.colorh1
+{
+	color: black;
+}
+
+h2
+{
+	color: gray;
+}
