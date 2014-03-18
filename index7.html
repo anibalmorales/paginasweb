@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TITULO</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<h1>Uso de formularios</h1>
+	<div class="container-fluid">
+		
+		<!--Formulario Vertical-->
+		<form action="#" name="formulario" method="post"> <!--Se crea el formulario en name="formulario"-->
+			<label for="nombre">Nombre</label>  <!--Etiquetas para los controles-->
+			<input type="text" name="nombre"> <!--Input de tipo texto-->
+			<label for="apellido">Apellido</label>
+			<input type="text" name="apellido">
+		</form>
+
+		<!--Formulario de búsqueda-->
+		<form action="#"  class="form-search"> <!--Se crea el formulario en name="formulario"-->
+			<label for="buscar">Nombre</label>  <!--Etiquetas para los controles-->
+			<input type="text" name="nombre" > <!--Input de tipo texto-->
+			<button type="submit" class="btn-primary">Buscar</button>
+		</form>
+
+			<!--Formulario INLINE-->
+		<form action="#" name="formulario" method="post" class="form-inline"> <!--Se crea el formulario en name="formulario"-->
+			<label for="nombre">Nombre</label>  <!--Etiquetas para los controles-->
+			<input type="text" name="nombre"> <!--Input de tipo texto-->
+			<label for="apellido">Apellido</label>
+			<input type="text" name="apellido">
+		</form>
+
+				<!--Formulario INLINE-->
+		<form action="#" name="formulario" method="post" class="form-horizontal"> <!--Se crea el formulario en name="formulario"-->
+			<label for="nombre" autofocus>Nombre</label>  <!--Etiquetas para los controles-->
+			<input type="text" name="nombre"> <!--Input de tipo texto-->
+			<label for="apellido">Apellido</label>
+			<input type="text" name="apellido">
+			<label for="checkbox">
+				<input type="checkbox" value="">
+				Masculino
+				<input type="checkbox" value="">
+				Femenino
+			</label>
+			<label for="" class="radio">
+				<input type="radio" name="opciones" value="Op1">Opcion1
+			</label>
+				<label for="" class="radio">
+				<input type="radio" name="opciones" value="Op2">Opcion2
+			</label>
+
+			<select name="Ciudades" id="">
+				<option value="1">Guatemala</option>
+				<option value="2">Quetzaltenango</option>
+				<option value="3">San Marcos</option>
+				<option value="4s">Huehuetenango</option>
+			</select>
+		</form>
+
+	</div>
+	
+</body>
+</html>

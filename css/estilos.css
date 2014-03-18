@@ -1,8 +1,3 @@
-body
-{
-	background-color: yellow;
-}
-
 .colorh1
 {
 	color: black;
@@ -10,5 +5,6 @@ body
 
 h2
 {
-	color: gray;
+	background-color: gray;
+	color: white;
 }
